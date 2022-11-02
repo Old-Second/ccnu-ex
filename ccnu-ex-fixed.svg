@@ -3,7 +3,7 @@
     <style></style>
     <style>
         text{
-        font-family: 'Tensentype-JiaLiDaYuanJF',sans-serif;
+        font-family: font,sans-serif;
         fill:#111;
         font-size:30px;
         }
@@ -27,7 +27,7 @@
         pointer-events: auto;
         }
         .边框{fill:none;}
-        <!--        #地点 path[level="5"]{fill:#FF7E7E;}-->
+        
         #地点 path[level="4"]{fill:#028ac8;}
         #地点 path[level="3"]{fill:#fe530b;}
         #地点 path[level="2"]{fill:#fbc643;}
@@ -164,9 +164,9 @@
         <text x="1050" y="760">育</text>
         <text x="1050" y="790">馆</text>
     </g>
-    <!--    <a href="https://lab.magiconch.com" target="_blank">-->
-    <!--        <text x="37" y="937">神奇海螺试验场</text>-->
-    <!--    </a>-->
+    
+    
+    
     <text id="进度" x="1350" y="503">探索进度：</text>
     <text id="分数" x="1470" y="583">得分：</text>
     <g id="等级">
