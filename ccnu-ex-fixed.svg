@@ -28,10 +28,10 @@
         }
         .边框{fill:none;}
         
-        #地点 path[level="4"]{fill:#028ac8;}
-        #地点 path[level="3"]{fill:#fe530b;}
-        #地点 path[level="2"]{fill:#fbc643;}
-        #地点 path[level="1"]{fill:#fff4d6;}
+        #地点 path[level="4"]{fill:#FF7E7E;}
+        #地点 path[level="3"]{fill:#FFB57E;}
+        #地点 path[level="2"]{fill:#FFE57E;}
+        #地点 path[level="1"]{fill:#A8FFBE;}
     </style>
     <text x="1000" y="100" id="标题">制霸华师</text>
     <g id="地点">
@@ -170,10 +170,10 @@
     <text id="进度" x="1350" y="503">探索进度：</text>
     <text id="分数" x="1470" y="583">得分：</text>
     <g id="等级">
-        <path fill="#028ac8" d="M1510 100h150v50H1510Z"/>
-        <path fill="#FFE57E" d="M1510 150h150v50H1510Z"/>
-        <path fill="#fbc643" d="M1510 200h150v50H1510Z"/>
-        <path fill="#fff4d6" d="M1510 250h150v50H1510Z"/>
+        <path fill="#FF7E7E" d="M1510 100h150v50H1510Z"/>
+        <path fill="#FFB57E" d="M1510 150h150v50H1510Z"/>
+        <path fill="#FFE57E" d="M1510 200h150v50H1510Z"/>
+        <path fill="#A8FFBE" d="M1510 250h150v50H1510Z"/>
         <path fill="#FFF" d="M1510 300h150v50H1510Z"/>
         <path class="边框" d="M1510 98h150v254H1510Z"/>
         <text x="1517" y="135">每日必去4</text>
