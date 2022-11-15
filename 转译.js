@@ -20,6 +20,7 @@ const replaceSVG = text => {
     text = text.replace(/ xmlns:xlink="http:\/\/www\.w3\.org\/1999\/xlink"/g, '')
     text = text.replace(/<rect y="0" class=".+?" width="2000" height="1210"\/?>/g, '')
     text = text.replace(/'Tensentype-JiaLiDaYuanJF'/g, 'font')
+    text = text.replace(/'simpleShangShouZhiZunShuFaTi'/g, 'font1')
 
     text = text.replace(/<polygon id="(.+?)" class="(.+?)" points="([^"]+)\s{0,}"\/>/g, (all, id, c, p) => {
         return `<path id="${id}" class="${c}" d="M${p.trim().replace(/[\n\r]/g, ' ').replace(/\s+/g, ' ')}z" />`
@@ -106,16 +107,12 @@ const reader = async _ => {
     jsText = minified.code;
     writeFileSync('dist/script.js', jsText, 'utf8');
 
-    const cssText = await Less.render(
-        readFileSync('html/style.less', 'utf8'),
-        {
-            optimization: 1,
-            compress: true,
-            yuicompress: false,
-        }
-    );
+    const cssText = await Less.render(readFileSync('html/style.less', 'utf8'), {
+        optimization: 1, compress: true, yuicompress: false,
+    });
     writeFileSync('dist/style.css', cssText.css, 'utf8');
     copyFileSync('html/font.woff', 'dist/font.woff');
+    // copyFileSync('html/font1.ttf', 'dist/font1.ttf');
 };
 
 reader();
