@@ -2,7 +2,7 @@
 
 华中师范大学制霸标记生成工具
 
-//https://lab.magiconch.com/china-ex/
+https://www.oldsecond.cn/ccnu-ex/
 
 ## 功能
 
@@ -28,7 +28,8 @@ https://github.com/Old-Second/ccnu-ex/issues
 
 ## 使用了
 
-腾祥嘉丽大圆
+腾祥嘉丽大圆体
+上首至尊书法体
 
 ## 协议
 
