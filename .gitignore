@@ -2,7 +2,6 @@ Un/*
 *.css
 package-lock.json
 china-ex-fixed.svg
-dist/*
 html/font.woff
 .idea
 /node_modules/
