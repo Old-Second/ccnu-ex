@@ -3,5 +3,6 @@ Un/*
 package-lock.json
 china-ex-fixed.svg
 html/font.woff
+dist/
 .idea
 /node_modules/
