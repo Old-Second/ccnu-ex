@@ -27,8 +27,10 @@ jobs:
           cache: npm
       - name: Setup Pages
         uses: actions/configure-pages@v4
+      - name: Install dependencies
+        run: npm install
       - name: Build
-        run: node 生成字体子集.js && node 转译.js
+        run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
