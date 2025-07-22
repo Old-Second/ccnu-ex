@@ -2,8 +2,7 @@
 
 华中师范大学制霸标记生成工具
 
-http://ccnu-ex.muxixyz.com/
-https://www.oldsecond.cn/ccnu-ex/
+https://old-second.github.io/ccnu-ex/
 
 ## 功能
 
